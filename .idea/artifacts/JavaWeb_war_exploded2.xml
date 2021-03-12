@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JavaWeb:war exploded2">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaWeb_war_exploded2</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JavaWeb" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+          <element id="library" level="project" name="javax.jms-api.jar-1.1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="JavaWeb/web/Web" />
+      <element id="javaee-facet-resources" facet="JavaWeb/web/Web2" />
+    </root>
+  </artifact>
+</component>
